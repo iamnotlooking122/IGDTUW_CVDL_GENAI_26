@@ -62,7 +62,7 @@ COLOUR_RANGES = {
 
 #open camera
 
-camera = cv2.VideoCapture("videos/input/parrot.mp4")
+camera = cv2.VideoCapture(0)
 
 print(camera)
 
